@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -74,7 +73,7 @@
 
 </head>
 <body>
-    <div style="text-align: center;">
+    <div style="text-align: center; font-family: courier;">
         <h1>Audio Website</h1>
     </div>
 
@@ -85,7 +84,7 @@
     <div class="container">
         <div class="item">
             <img src="hozier.jpeg" alt="Hozier Album Art">
-            <p>"Cherry Wine" by Hozier</p>
+            <p style="font-family: courier;">"Cherry Wine" by Hozier</p>
 
             <div>
                 <br>
@@ -104,7 +103,7 @@
 
         <div class="item">
             <img src="johnsummit.jpeg" alt="Album Art">
-            <p>"Shiver" by John Summit</p>
+            <p style="font-family: courier;">"Shiver" by John Summit</p>
             <div>
                 <br>
 
@@ -122,7 +121,7 @@
 
         <div class="item">
             <img src="noahkahan.jpeg" alt="Album Art">
-            <p>"View Between Villages" by Noah Kahan</p>
+            <p style="font-family: courier;">"View Between Villages" by Noah Kahan</p>
             <div>
                 <br>
 
