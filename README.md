@@ -8,7 +8,7 @@
     body {
         background-color: darkgrey;
         font-family: courier;
-        margin: 0px;
+        margin: 5px;
     }
 
     .container {
