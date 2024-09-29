@@ -14,8 +14,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     .item {
