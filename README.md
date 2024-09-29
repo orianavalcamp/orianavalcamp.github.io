@@ -84,8 +84,6 @@
             <img src="hozier.jpeg" alt="Album Art">
             <p style="font-family: courier;">"Cherry Wine" by Hozier</p>
             <div>
-                <br>
-
                 <button class="button button2" onclick="playAudio2()">Play</button>
                 <button class="button button2" onclick="pauseAudio2()">Pause</button>
 
