@@ -8,13 +8,13 @@
     body {
         background-color: darkgrey;
         font-family: courier;
-        margin: 5px;
     }
 
     .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin: 10px;
     }
 
     .item {
