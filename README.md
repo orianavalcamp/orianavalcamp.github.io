@@ -73,7 +73,7 @@
 
 </head>
 <body>
-    <h1 style="font-family: courier"> Audio Website</h1>
+    <h1 style="text-align: center; font-family: courier;"> Audio Website</h1>
 
     <audio id="audioPlayer1" src="johnsummit.mp3" type="audio/mpeg"></audio>
     <audio id="audioPlayer2" src="hozier.mp3" type="audio/mpeg"></audio>
