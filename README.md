@@ -82,8 +82,7 @@
     <div class="container">
         <div class="item">
             <img src="hozier.jpeg" alt="Album Art">
-            <div>
-                help
+            <p>"Cherry Wine" by Hozier</p>
             <div>
                 <br>
 
@@ -113,7 +112,6 @@
                 <button class="button button1" onclick="setPlaybackRate1(0.5)">0.5x</button>
                 <button class="button button1" onclick="setPlaybackRate1(1)">1x</button>
                 <button class="button button1" onclick="setPlaybackRate1(2)">2x</button>
-            </div>
             </div>
         </div>
 
