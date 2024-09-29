@@ -8,14 +8,14 @@
     body {
         background-color: darkgrey;
         font-family: courier;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .item {
