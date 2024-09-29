@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -73,7 +74,9 @@
 
 </head>
 <body>
-    <h1 style="font-family: courier; text-align: center; "> Audio Website</h1>
+    <div style="text-align: center;">
+        <h1>Audio Website</h1>
+    </div>
 
     <audio id="audioPlayer1" src="johnsummit.mp3" type="audio/mpeg"></audio>
     <audio id="audioPlayer2" src="hozier.mp3" type="audio/mpeg"></audio>
@@ -81,8 +84,9 @@
 
     <div class="container">
         <div class="item">
-            <img src="hozier.jpeg" alt="Album Art">
-            <p style="font-family: courier;">"Cherry Wine" by Hozier</p>
+            <img src="hozier.jpeg" alt="Hozier Album Art">
+            <p>"Cherry Wine" by Hozier</p>
+
             <div>
                 <br>
 
@@ -100,6 +104,7 @@
 
         <div class="item">
             <img src="johnsummit.jpeg" alt="Album Art">
+            <p>"Shiver" by John Summit</p>
             <div>
                 <br>
 
@@ -117,6 +122,7 @@
 
         <div class="item">
             <img src="noahkahan.jpeg" alt="Album Art">
+            <p>"View Between Villages" by Noah Kahan</p>
             <div>
                 <br>
 
@@ -138,7 +144,7 @@
         const audio2 = document.getElementById('audioPlayer2');
         const audio3 = document.getElementById('audioPlayer3');
 
-        let currentAudio = null; // Variable to track currently playing audio
+        let currentAudio = null;
 
         function playAudio1() {
             playAudio(audio);
@@ -152,50 +158,49 @@
             playAudio(audio3);
         }
 
-        function playAudio(audioElement) {
-        // Stop currently playing audio if there's one
-            if (currentAudio && currentAudio !== audioElement) {
+        function playAudio(newAudio) {
+            if (currentAudio && currentAudio !== newAudio) {
                 currentAudio.pause();
-                currentAudio.currentTime = 0; // Reset the time to the start
+                currentAudio.currentTime = 0;
             }
             audioElement.play();
-            currentAudio = audioElement; // Set the currently playing audio
+            currentAudio = newAudio;
         }
 
-    function pauseAudio1() {
-        pauseAudio(audio);
-    }
-
-    function pauseAudio2() {
-        pauseAudio(audio2);
-    }
-
-    function pauseAudio3() {
-        pauseAudio(audio3);
-    }
-
-    function pauseAudio(audioElement) {
-        audioElement.pause();
-        if (currentAudio === audioElement) {
-            currentAudio = null; // Reset if the paused audio was the current one
+        function pauseAudio1() {
+            pauseAudio(audio);
         }
-    }
 
-    function setPlaybackRate1(rate) {
-        setPlaybackRate(audio, rate);
-    }
+        function pauseAudio2() {
+            pauseAudio(audio2);
+        }
 
-    function setPlaybackRate2(rate) {
-        setPlaybackRate(audio2, rate);
-    }
+        function pauseAudio3() {
+            pauseAudio(audio3);
+        }
 
-    function setPlaybackRate3(rate) {
-        setPlaybackRate(audio3, rate);
-    }
+        function pauseAudio(newAudio) {
+            audioElement.pause();
+            if (currentAudio === newAudio) {
+                currentAudio = null;
+            }
+        }
 
-    function setPlaybackRate(audioElement, rate) {
-        audioElement.playbackRate = rate;
-    }
-</script>
+        function setPlaybackRate1(rate) {
+            setPlaybackRate(audio, rate);
+        }   
+
+        function setPlaybackRate2(rate) {
+            setPlaybackRate(audio2, rate);
+        }
+
+        function setPlaybackRate3(rate) {
+            setPlaybackRate(audio3, rate);
+        }
+
+        function setPlaybackRate(audioElement, rate) {
+            audioElement.playbackRate = rate;
+        }
+    </script>
 </body>
 </html>
