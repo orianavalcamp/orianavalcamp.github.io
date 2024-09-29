@@ -18,7 +18,7 @@
 
     .item {
         width: 100%;
-        max-width: 300px;
+        max-width: 100px;
         margin: 20px;
         text-align: center;
     }
