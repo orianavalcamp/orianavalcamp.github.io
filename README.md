@@ -73,7 +73,7 @@
 
 </head>
 <body>
-    <div style="text-align: center; font-family: courier" >
+    <div style="font-family: courier" >
         <h1>Audio Website</h1>
     </div>
 
