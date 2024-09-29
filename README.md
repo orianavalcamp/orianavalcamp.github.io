@@ -82,7 +82,7 @@
     <div class="container">
         <div class="item">
             <img src="hozier.jpeg" alt="Album Art">
-            <p style="font-family: courier; color: orange>"Cherry Wine" by Hozier</p>
+            <h1 style="font-family: courier; color: orange>"Cherry Wine" by Hozier</h1>
             <div>
                 <br>
 
