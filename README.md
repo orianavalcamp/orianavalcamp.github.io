@@ -98,9 +98,8 @@
 
         <div class="item">
             <img src="johnsummit.jpeg" alt="Album Art">
+            <p style="font-family: courier;">"Shiver" by John Summit</p>
             <div>
-                <br>
-
                 <button class="button button1" onclick="playAudio1()">Play</button>
                 <button class="button button1" onclick="pauseAudio1()">Pause</button>
 
@@ -115,9 +114,8 @@
 
         <div class="item">
             <img src="noahkahan.jpeg" alt="Album Art">
+            <p style="font-family: courier;">"View Between Villages" by Noah Kahan</p>
             <div>
-                <br>
-
                 <button class="button button3" onclick="playAudio3()">Play</button>
                 <button class="button button3" onclick="pauseAudio3()">Pause</button>
 
