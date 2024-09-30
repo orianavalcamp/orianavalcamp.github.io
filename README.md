@@ -97,6 +97,7 @@
         </div>
 
         <div class="item">
+        <br>
             <img src="johnsummit.jpeg" alt="Album Art">
             <p style="font-family: courier;">"Shiver" by John Summit</p>
             <div>
@@ -113,6 +114,7 @@
         </div>
 
         <div class="item">
+        <br>
             <img src="noahkahan.jpeg" alt="Album Art">
             <p style="font-family: courier;">"View Between Villages" by Noah Kahan</p>
             <div>
