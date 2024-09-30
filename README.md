@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Oriana Valcamp Assignment #1</title>
     
     <style>
@@ -71,14 +71,14 @@
 
     @media only screen and (min-width: 1024px) {
         .item {
-            max-width: 30%;
+            max-width: 400px;
         }
     }
 
     /* For iPads and Tablets (768px to 1023px) */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .item {
-            max-width: 75%;
+            max-width: 350px;
         }
     }
 
