@@ -75,7 +75,6 @@
         }
     }
 
-    /* For iPads and Tablets (768px to 1023px) */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .item {
             max-width: 350px;
@@ -83,14 +82,14 @@
     }
 
     @media only screen and (max-width: 767px) {
-    .item {
-        max-width: 90%; /* Allows the images and items to adjust to the screen size */
-     }
-}
+        .item {
+            max-width: 90%;
+         }
+    }
 
-</style>
-
+    </style>
 </head>
+
 <body>
     <h1 style="font-family: courier; text-align: center; "> Audio Website</h1>
 
@@ -153,7 +152,7 @@
         const audio2 = document.getElementById('audioPlayer2');
         const audio3 = document.getElementById('audioPlayer3');
 
-        let currentAudio = null; // Variable to track currently playing audio
+        let currentAudio = null;
 
         function playAudio1() {
             playAudio(audio);
@@ -168,8 +167,7 @@
         }
 
         function playAudio(audioElement) {
-        // Stop currently playing audio if there's one
-            if (currentAudio && currentAudio !== audioElement) {
+            if (currentAudio !== audioElement) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0; // Reset the time to the start
             }
