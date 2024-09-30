@@ -82,12 +82,26 @@
         }
     }
 
-    /* For iPhones and small devices (up to 767px) */
     @media only screen and (max-width: 767px) {
-        .item {
-            max-width:90%;
-        }
+    .item {
+        max-width: 90%; /* Allows the images and items to adjust to the screen size */
+        margin: 10px; /* Slightly smaller margins */
     }
+
+    h1 {
+        font-size: 1.5rem; /* Reduce the font size of the heading */
+    }
+
+    .button {
+        font-size: 1.2rem; /* Reduce button text size */
+        padding: 10px; /* Make buttons smaller to fit better on small screens */
+    }
+
+    img {
+        width: 100%; /* Make sure images are not too wide */
+        height: auto;
+    }
+}
 
 </style>
 
