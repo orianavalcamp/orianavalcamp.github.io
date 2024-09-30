@@ -93,8 +93,8 @@
     }
 
     .button {
-        font-size: 1.2rem; /* Reduce button text size */
-        padding: 10px; /* Make buttons smaller to fit better on small screens */
+        font-size: 3rem; /* Reduce button text size */
+        padding: 50px; /* Make buttons smaller to fit better on small screens */
     }
 
     img {
