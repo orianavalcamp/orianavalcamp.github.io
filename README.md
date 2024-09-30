@@ -85,7 +85,7 @@
     /* For iPhones and small devices (up to 767px) */
     @media only screen and (max-width: 767px) {
         .item {
-            max-width:90%;
+            max-width:100px;
         }
     }
 
