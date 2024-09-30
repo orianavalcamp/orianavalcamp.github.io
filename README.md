@@ -71,14 +71,14 @@
 
     @media only screen and (min-width: 1024px) {
         .item {
-            max-width: 90%;
+            max-width: 30%;
         }
     }
 
     /* For iPads and Tablets (768px to 1023px) */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .item {
-            max-width: 90%;
+            max-width: 75%;
         }
     }
 
