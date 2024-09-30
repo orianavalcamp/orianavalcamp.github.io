@@ -18,7 +18,7 @@
 
     .item {
         width: 100%;
-        max-width: 400px;
+        max-width: 200px;
         margin: 20px;
         text-align: center;
     }
@@ -71,14 +71,14 @@
 
     @media only screen and (min-width: 1024px) {
         .item {
-            max-width: 400px;
+            max-width: 200px;
         }
     }
 
     /* For iPads and Tablets (768px to 1023px) */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .item {
-            max-width: 350px;
+            max-width: 150px;
         }
     }
 
