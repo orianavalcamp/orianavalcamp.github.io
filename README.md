@@ -167,7 +167,7 @@
         }
 
         function playAudio(newAudio) {
-            if (currentAudio !== newAudio) {
+            if (currentAudio && currentAudio !== newAudio) {
                 currentAudio.pause();
                 currentAudio.currentTime = 0;
             }
