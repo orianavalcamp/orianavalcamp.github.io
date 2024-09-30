@@ -187,10 +187,10 @@
         pauseAudio(audio3);
     }
 
-    function pauseAudio(audioElement) {
-        audioElement.pause();
-        if (currentAudio === audioElement) {
-            currentAudio = null; // Reset if the paused audio was the current one
+    function pauseAudio(newAudio) {
+        newAudio.pause();
+        if (currentAudio === newAudio) {
+            currentAudio = null;
         }
     }
 
