@@ -78,14 +78,14 @@
     /* For iPads and Tablets (768px to 1023px) */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .item {
-            max-width: 90%;
+            max-width: 350px;
         }
     }
 
     /* For iPhones and small devices (up to 767px) */
     @media only screen and (max-width: 767px) {
         .item {
-            max-width: 90%;
+            max-width: 300px;
         }
     }
 
