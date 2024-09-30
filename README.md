@@ -12,7 +12,6 @@
 
     .container {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -79,7 +78,7 @@
     <audio id="audioPlayer2" src="hozier.mp3" type="audio/mpeg"></audio>
     <audio id="audioPlayer3" src="noahkahan.mp3" type="audio/mpeg"></audio>
 
-    
+    <div class="container">
         <div class="item">
             <img src="hozier.jpeg" alt="Album Art">
             <p style="font-family: courier;">"Cherry Wine" by Hozier</p>
@@ -129,7 +128,7 @@
                 <button class="button button3" onclick="setPlaybackRate3(2)">2x</button>
             </div>
         </div>
-    
+    </div>
 
     <script>
         const audio = document.getElementById('audioPlayer1');
