@@ -71,21 +71,21 @@
 
     @media only screen and (min-width: 1024px) {
         .item {
-            max-width: 200px;
+            max-width: 90%;
         }
     }
 
     /* For iPads and Tablets (768px to 1023px) */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .item {
-            max-width: 150px;
+            max-width: 90%;
         }
     }
 
     /* For iPhones and small devices (up to 767px) */
     @media only screen and (max-width: 767px) {
         .item {
-            max-width:100px;
+            max-width:90%;
         }
     }
 
