@@ -71,30 +71,21 @@
 
     @media only screen and (min-width: 1024px) {
         .item {
-            max-width: 300px;
-        }
-        .button {
-            font-size: 1.25rem;
+            max-width: 400px;
         }
     }
 
     /* For iPads and Tablets (768px to 1023px) */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
         .item {
-            max-width: 350px;
-        }
-        .button {
-            font-size: 1.4rem;
+            max-width: 90%;
         }
     }
 
     /* For iPhones and small devices (up to 767px) */
     @media only screen and (max-width: 767px) {
         .item {
-            max-width: 90%; /* Adjust to use most of the screen width */
-        }
-        .button {
-            font-size: 1.2rem;
+            max-width: 90%;
         }
     }
 
