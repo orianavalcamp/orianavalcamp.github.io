@@ -166,13 +166,13 @@
             playAudio(audio3);
         }
 
-        function playAudio(audioElement) {
-            if (currentAudio !== audioElement) {
+        function playAudio(newAudio) {
+            if (currentAudio !== newAudio) {
                 currentAudio.pause();
-                currentAudio.currentTime = 0; // Reset the time to the start
+                currentAudio.currentTime = 0;
             }
-            audioElement.play();
-            currentAudio = audioElement; // Set the currently playing audio
+            newAudio.play();
+            currentAudio = newAudio;
         }
 
     function pauseAudio1() {
